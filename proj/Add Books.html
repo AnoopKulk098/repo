@@ -1,0 +1,97 @@
+
+<html lang="en">
+<head>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style type="text/css">
+        body{
+            font-size: 32px;
+            background-image: url("booksimg2.jpg");
+		background-repeat: no-repeat;
+		background-size: 100%;
+            color: whitesmoke;
+            
+        }
+        h2{
+            color: snow;
+            font-size: 42px;
+        }
+    </style>
+    
+    </head>
+<body>
+    
+
+<div class="container text-center text-center">
+            <form class="form-horizontal" method="post" action="add_book.php" role="form">
+              <center>  <h2>Enter Book Details Form</h2>  </center>
+			    
+				
+                <div class="form-group">
+                    <label for="Book ID" class="col-sm-3 control-label">Book ID</label>
+                    <div class="col-sm-4">
+                        <input type="text" id="book_id" name="book_id" placeholder="Book ID" class="form-control" autofocus>
+                       
+                    </div>
+                </div>
+				<div class="form-group">
+                    <label for="Branch" class="col-sm-3 control-label">Branch</label>
+                    <div class="col-sm-4">
+                        <input type="text" id="branch" name="branch"  placeholder="Branch" class="form-control" autofocus>
+                       
+                    </div>
+                </div>
+				<div class="form-group">
+                    <label for="Topic" class="col-sm-3 control-label">Topic</label>
+                    <div class="col-sm-4">
+                        <input type="text" id="topic" name= "topic" placeholder="Topic" class="form-control" autofocus>
+                       
+                    </div>
+                </div>
+               
+                <div class="form-group">
+                    <label for="Title" class="col-sm-3 control-label">Title</label>
+                    <div class="col-sm-4">
+                        <input type="text" id="title" name="title" placeholder="Title" class="form-control">
+                    </div>
+                </div>
+				                <div class="form-group">
+                    <label for="Publisher" class="col-sm-3 control-label">Publisher</label>
+                    <div class="col-sm-4">
+                        <input type="text" id="publisher" name="publisher" placeholder="Publisher" class="form-control">
+                    </div>
+                </div>
+               
+                <div class="form-group">
+                    <label for="Availability" class="col-sm-3 control-label">Availability</label>
+                    <div class="col-sm-4">
+                        <input type="text" id="availability" name="availability" placeholder="Availability" class="form-control" autofocus>
+                      
+                    </div>
+                </div>
+                
+               <div class="form-group">
+                    <label for="Lender USN" class="col-sm-3 control-label">Lender USN</label>
+                    <div class="col-sm-4">
+                        <input type="text" id="lender_usn" name="lender_usn" placeholder="Lender USN" class="form-control" autofocus>
+                       
+                    </div>
+                </div>
+               
+             
+				
+                <div class="form-group">
+                    <div class="col-md-2 col-sm-offset-3">
+                        <button type="submit" class="btn btn-info">Submit</button>
+                    </div>
+                </div>
+            </form> <!-- /form -->
+        </div> <!-- ./container -->
+		
+	
+		
+		</body>
+		</html>

@@ -1,0 +1,4 @@
+/*while($row=$result->fetch_assoc())
+		{
+			echo "name:	".$row['name']."	usn: ".$row['usn']."	year: ".$row['year']."	branch: ".$row['branch']."	Unit No: ".$row['unit_no']."	Room no: ".$row['room_no']."	Phone no: ".$row['phone_no']."<br />";
+		}*/

@@ -1,0 +1,75 @@
+
+<html lang="en">
+<head>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <style type="text/css">
+        body{
+            font-size: 32px;
+            background-image: url("orangebkg.jpg");
+		background-repeat: no-repeat;
+		background-size: 100%;
+            color: black;
+            
+        }
+        h2{
+            color: black;
+            font-size: 42px;
+        }
+    </style>
+    
+    </head>
+<body>
+    
+
+<div class="container text-center text-center">
+            <form class="form-horizontal" method="post" action="add complaints.php" role="form">
+              <center>  <h2>Register Complaint</h2>  </center>
+			    
+				
+                <div class="form-group">
+                    <label for="Complaint ID" class="col-sm-3 control-label">Complaint ID</label>
+                    <div class="col-sm-4">
+                        <input type="text" id="comp_id" name="comp_id" placeholder="Complaint ID" class="form-control" autofocus>
+                       
+                    </div>
+                </div>
+				<div class="form-group">
+                    <label for="Type" class="col-sm-3 control-label">Type</label>
+                    <div class="col-sm-4">
+                        <input type="text" id="type" name="type"  placeholder="Type" class="form-control" autofocus>
+                       
+                    </div>
+                </div>
+				<div class="form-group">
+                    <label for="Complaint Date" class="col-sm-3 control-label">Complaint Date</label>
+                    <div class="col-sm-4">
+                        <input type="text" id="comp_date" name= "comp_date" placeholder="yyyy-dd-mm" class="form-control" autofocus>
+                       
+                    </div>
+                </div>
+               
+                <div class="form-group">
+                    <label for="Critical" class="col-sm-3 control-label">Critical</label>
+                    <div class="col-sm-4">
+                        <input type="text" id="critical" name="critical" placeholder="y/n" class="form-control">
+                    </div>
+                </div>
+				                
+				
+                <div class="form-group">
+                    <div class="col-md-2 col-sm-offset-3">
+                        <button type="submit" class="btn btn-info">Submit</button>
+                    </div>
+                </div>
+            </form> <!-- /form -->
+        </div> <!-- ./container -->
+		
+	
+		
+		</body>
+		</html>
