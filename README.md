@@ -1,2 +1,2 @@
 # repo
-new to this
+put the files in xampp/htdocs folder 
